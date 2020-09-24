@@ -1,0 +1,2 @@
+run = "./build.sh"
+# runs custom build script instead of defulat repl
