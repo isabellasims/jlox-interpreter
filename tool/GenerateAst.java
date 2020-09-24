@@ -15,6 +15,7 @@ public class GenerateAst {
       System.err.println("Usage: generate_ast <output directory>");
       System.exit(64);
     }
+    // keeps grammar in one place 
     String outputDir = args[0];
         defineAst(outputDir, "Expr", Arrays.asList(
       "Binary   : Expr left, Token operator, Expr right",
