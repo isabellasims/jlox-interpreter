@@ -1,2 +1,3 @@
-run = "./build.sh"
+run = "bash build.sh"
 # runs custom build script instead of defulat repl
+#chmod + x ./build.sh
