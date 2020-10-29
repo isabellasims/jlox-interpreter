@@ -1,4 +1,9 @@
-# compliles all java files anf executes main file
+set -e
+
+# compile and run the AST generator
+javac -classpath . tool/GenerateAst.java
+java -classpath . tool.GenerateAst .
+
+# compile and run the interpreter
 javac -classpath . *.java
-#javac -classpath 
 java -classpath . Main
